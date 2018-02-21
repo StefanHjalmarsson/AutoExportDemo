@@ -1,0 +1,8 @@
+<project name="automaticExport" default="export" basedir=".">
+     <target name="export">
+       <com.hcl.design.room.exporter.ui.exportModelsTask
+         configuration="${workspace}/config.xml"
+         importFrom="${workspace}">
+       </com.hcl.design.room.exporter.ui.exportModelsTask>
+     </target>
+</project>
